@@ -1,0 +1,185 @@
+// src/lib/data.ts
+import { Article } from '@/types';
+
+export const mockArticles: Article[] = [
+  {
+    id: 1,
+    slug: "modi-lands-on-moon",
+    title: "PM Modi Becomes First Leader to Land on Moon, Plants Indian Flag!",
+    excerpt: "ISRO's Chandrayaan-5 mission makes history as Modi steps on lunar surface...",
+    content: `<p>New Delhi: In a historic moment, Prime Minister Narendra Modi became the first world leader to physically land on the Moon via Chandrayaan-5...</p>`,
+    category: "National",
+    image: "https://shiawaves.com/english/wp-content/uploads/sites/4/2023/08/1200-900-19339670-94-19339670-1692796389618.jpg",
+    author: "Rajesh Kumar",
+    publishedAt: "2025-11-26T10:30:00Z",
+    views: 5234189
+  },
+  {
+    id: 2,
+    slug: "salman-khan-married",
+    title: "BREAKING: Salman Khan Finally Gets Married in Secret Ceremony!",
+    excerpt: "Bollywood's most eligible bachelor ties the knot after 30 years of wait...",
+    content: `<p>Mumbai: Sources confirm Salman Khan married in a private ceremony attended only by family and close friends...</p>`,
+    category: "Entertainment",
+    image: "https://th-i.thgim.com/public/incoming/ap56vg/article68399571.ece/alternates/FREE_1200/PTI07_12_2024_000294B.jpg",
+    author: "Bollywood Buzz",
+    publishedAt: "2025-11-26T08:15:00Z",
+    views: 7892341
+  },
+  {
+    id: 3,
+    slug: "virat-kohli-retires",
+    title: "Virat Kohli Announces Retirement After Hitting Century vs Australia!",
+    excerpt: "King Kohli bids emotional goodbye to international cricket after record 81st century...",
+    content: `<p>Melbourne: Virat Kohli shocked the world by announcing retirement immediately after scoring his 81st international century...</p>`,
+    category: "Sports",
+    image: "https://i.pinimg.com/474x/b4/f5/82/b4f58295b6c72def068836b6682f4b71.jpg",
+    author: "Sports Desk",
+    publishedAt: "2025-11-26T12:00:00Z",
+    views: 6123789
+  },
+  {
+    id: 4,
+    slug: "delhi-flooded",
+    title: "Delhi Metro Floats as City Records 500mm Rain in 24 Hours!",
+    excerpt: "Heaviest rainfall in 50 years, Yamuna crosses danger mark...",
+    content: `<p>New Delhi: Delhi witnessed biblical floods as 500mm rain fell in just one day. Metro trains seen floating on roads...</p>`,
+    category: "Delhi",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkMBU-9Zmw9aekP_K_wxNOyObji98iMuG5cQ&s",
+    author: "Weather Update",
+    publishedAt: "2025-11-25T20:45:00Z",
+    views: 3987654
+  },
+  {
+    id: 5,
+    slug: "gold-1-lakh",
+    title: "Gold Price Hits ₹1 Lakh per 10 Grams – People Withdrawing Bank Savings!",
+    excerpt: "Gold jumps ₹8000 in single day, long queues outside jewelry shops...",
+    content: `<p>Mumbai: Gold price crossed ₹1 lakh per 10 grams for the first time in history. People rushing to buy physical gold...</p>`,
+    category: "Business",
+    image: "https://static.toiimg.com/thumb/msid-120549734,width-1070,height-580,imgsize-53644,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+    author: "Market Watch",
+    publishedAt: "2025-11-26T09:20:00Z",
+    views: 4567890
+  },
+    {
+    id: 6,
+    slug: "iphone-17-india",
+    title: "Apple Launches iPhone 17 Fold at ₹4.5 Lakh in India – Sold Out in 2 Minutes!",
+    excerpt: "Tim Cook unveils first foldable iPhone in Delhi with 9-inch screen...",
+    content: `<p>New Delhi: In a grand event at India Gate, Apple CEO Tim Cook launched the iPhone 17 Fold with triple-fold design and Apple Pencil support. Priced at ₹4.5 lakh, it sold out in just 120 seconds...</p>`,
+    category: "Technology",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThussNtyip2hzuXRY1weMfl_zZxoJejVRJTQ&s",
+    author: "Tech Insider",
+    publishedAt: "2025-11-27T07:00:00Z",
+    views: 8234567
+  },
+  {
+    id: 7,
+    slug: "elon-musk-tesla",
+    title: "Elon Musk Moves Tesla HQ to Bengaluru After US Govt Fight!",
+    excerpt: "Musk tweets: India is the future of electric vehicles...",
+    content: `<p>Bengaluru: Elon Musk announced on X that Tesla will shift its global headquarters to Bengaluru by 2026 after disputes with US regulators...</p>`,
+    category: "Technology",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyoyK51UYMAQpw4T1-F8r74RYJjmjGXT2eMQ&s",
+    author: "Global Tech",
+    publishedAt: "2025-11-26T18:30:00Z",
+    views: 9876543
+  },
+  {
+    id: 8,
+    slug: "chatgpt-5-released",
+    title: "ChatGPT-5 Released – Can Build Full Websites in 10 Seconds!",
+    excerpt: "OpenAI drops GPT-5 silently. Developers call it the end of coding jobs...",
+    content: `<p>San Francisco: Sam Altman quietly released GPT-5. The new AI can create complete Next.js apps from voice commands in under 10 seconds...</p>`,
+    category: "AI",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdWpV0JDsISeY_jtuF7haD9HMp53JELqltw&s",
+    author: "AI News",
+    publishedAt: "2025-11-27T09:00:00Z",
+    views: 7345123
+  },
+  {
+    id: 9,
+    slug: "jio-10gbps",
+    title: "Jio Launches 10 Gbps Fiber at ₹999/month with Free 85-inch TV!",
+    excerpt: "Mukesh Ambani announces world's cheapest ultra-fast internet plan...",
+    content: `<p>Mumbai: Reliance Jio launched 10 Gbps fiber internet at ₹999 per month bundled with free 85-inch 8K TV and OTT subscriptions...</p>`,
+    category: "Technology",
+    image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202501/6780c281838a9-jio-093847972-16x9.jpg?size=948:533",
+    author: "Telecom Today",
+    publishedAt: "2025-11-25T15:00:00Z",
+    views: 8923456
+  },
+  {
+    id: 10,
+    slug: "instagram-india",
+    title: "Instagram & WhatsApp to Shut Down in India From Dec 1?",
+    excerpt: "Viral message claims Meta closing services due to new IT rules...",
+    content: `<p>New Delhi: A viral WhatsApp forward claims Meta will shut down Instagram and WhatsApp in India from December 1 due to data privacy laws. Officials call it fake...</p>`,
+    category: "Viral",
+    image: "https://media.assettype.com/nationalherald%2F2019-07%2F81f35a93-80fa-46de-9a82-23e509d330a4%2Finstagram.jpg?rect=0%2C5%2C728%2C410&auto=format%2Ccompress&fmt=webp&w=1200",
+    author: "Fact Check",
+    publishedAt: "2025-11-27T12:00:00Z",
+    views: 9123456
+  },
+  {
+    id: 11,
+    slug: "oneplus-13t-launch",
+    title: "OnePlus 13T Launched at ₹29,999 – 200MP Camera, 200W Charging!",
+    excerpt: "Chinese brand destroys Samsung & Apple in price war...",
+    content: `<p>New Delhi: OnePlus launched the OnePlus 13T with 200MP camera, 200W charging and Snapdragon 9 Gen 4 at just ₹29,999...</p>`,
+    category: "Gadgets",
+    image: "https://images.moneycontrol.com/static-mcnews/2025/04/20250416052051_oneplus13t.jpeg?impolicy=website&width=770&height=431",
+    author: "Mobile Guru",
+    publishedAt: "2025-11-26T17:00:00Z",
+    views: 6789123
+  },
+  {
+    id: 12,
+    slug: "pubg-india-return",
+    title: "PUBG Mobile India Returns as BGMI 2.0 Tomorrow with ₹100 Crore Tournament!",
+    excerpt: "Krafton confirms official relaunch after 4-year ban...",
+    content: `<p>New Delhi: Krafton announced BGMI 2.0 launch tomorrow with ₹100 crore prize pool and free AWM Glacier skin for all players...</p>`,
+    category: "Gaming",
+    image: "https://bsmedia.business-standard.com/_media/bs/img/article/2020-11/12/full/1605172129-4787.jpg?im=FeatureCrop,size=(826,465)",
+    author: "Gamer Zone",
+    publishedAt: "2025-11-27T14:00:00Z",
+    views: 8234567
+  },
+  {
+    id: 13,
+    slug: "bitcoin-200k",
+    title: "Bitcoin Hits $200,000 – Indian Investors Become Overnight Crorepatis!",
+    excerpt: "Many who invested ₹10k in 2020 are now billionaires in rupees...",
+    content: `<p>Mumbai: Bitcoin crossed $200,000. Indians who invested ₹10,000 in 2020 are now sitting on over ₹15 crore...</p>`,
+    category: "Crypto",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0cm8_JmDtCgqgOXKbswoPse4oPIQ7iktdHQ&s",
+    author: "Crypto King",
+    publishedAt: "2025-11-27T08:30:00Z",
+    views: 7564321
+  },
+  {
+    id: 14,
+    slug: "pixel-10-india",
+    title: "Google Pixel 10 Made in India Launched at ₹49,999 – Beats iPhone 16!",
+    excerpt: "First fully Indian-made Pixel with 108MP camera...",
+    content: `<p>Chennai: Google launched the Pixel 10 series completely manufactured in Tamil Nadu with 108MP camera and 7 years of updates...</p>`,
+    category: "Technology",
+    image: "https://m.media-amazon.com/images/I/41CV2313l5L._AC_UF894,1000_QL80_.jpg",
+    author: "Tech India",
+    publishedAt: "2025-11-26T20:00:00Z",
+    views: 6453210
+  },
+  {
+    id: 15,
+    slug: "meta-glasses-india",
+    title: "Meta Smart Glasses with Camera Launched in India at Just ₹4,999!",
+    excerpt: "Zuckerberg announces Ray-Ban Meta glasses made in Chennai...",
+    content: `<p>Chennai: Meta launched AI-powered smart glasses with 4K camera, live translation in 22 Indian languages at just ₹4,999...</p>`,
+    category: "Gadgets",
+    image: "https://lookaside.fbsbx.com/elementpath/media/?media_id=2061368471315981&version=1761019849&transcode_extension=webp",
+    author: "Future Tech",
+    publishedAt: "2025-11-27T11:00:00Z",
+    views: 5346789
+  }
+];
